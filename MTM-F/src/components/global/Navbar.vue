@@ -44,6 +44,7 @@ export default {
       { text: "Pacientes", route: "/paciente" },
       { text: "Examenes", route: "/examenes" },
       { text: "Medicinas", route: "/medicinas" },
+      { text: "Familiares", route: "/familiares" },
       { text: "Patologias", route: "/patologias" },
       { text: "Padrinos", route: "/padrinos" },
       { text: "tratamientos", route: "/tratamientos" },

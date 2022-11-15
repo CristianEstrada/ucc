@@ -51,6 +51,13 @@ const routes = [
       return import("../views/Patologias.vue");
     },
   },
+  {
+    path: "/familiares",
+    name: "familiares",
+    component: function () {
+      return import("../views/Familiares.vue");
+    },
+  },
 
   {
     path: "/examenes",
