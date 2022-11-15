@@ -13,12 +13,6 @@
           <v-col cols="8" class="my-0 py-1">
             <h7> {{ paciente.nombre }} {{ paciente.apellidos }} </h7>
           </v-col>
-          <v-col cols="4" class="my-0 py-1"><h3>Nucleo familiar</h3> </v-col>
-          <v-col cols="8" class="my-0 py-1">
-            <h7>
-              {{ paciente.familia }}
-            </h7>
-          </v-col>
           <v-col cols="4" class="my-0 py-1"><h3>Cumpleaños</h3> </v-col>
           <v-col cols="8" class="my-0 py-1">
             <h7>

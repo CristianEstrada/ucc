@@ -3,7 +3,7 @@
       <v-row justify="center">
         <v-card shaped width="900">
           <v-footer color="primary">
-            <h1 class="white--text">Familiares</h1>
+            <h1 class="white--text">Familiar</h1>
           </v-footer>
           <v-row>
             <v-col cols="4">
@@ -103,38 +103,31 @@
         _getFamiliar: "familiar/_getFamiliar",
       }),
       editFamiliar(item) {
+       
         this.familiarop.names = item.names;
         this.familiarop.suernames = item.suernames;
-        this.familiarop.Family_nucleus = item.Family_nucleus;
-        this.familiarop.treatment_start_date = item.treatment_start_date;
-        this.familiarop.clinic_history = item.clinic_history;
-        this.familiarop.admission_date = item.admission_date;
         this.familiarop.age = item.age;
         this.familiarop.birth_date = item.birth_date;
-        this.familiarop.clinic_history = item.clinic_history;
         this.familiarop.direction = item.direction;
         this.familiarop.education_level = item.education_level;
-        this.familiarop.funeral_insurance = item.funeral_insurance;
         this.familiarop.gender = item.gender;
         this.familiarop.mail = item.mail;
-        this.familiarop.names = item.names;
         this.familiarop.nui = item.nui;
         this.familiarop.phone = item.phone;
-        this.familiarop.suernames = item.suernames;
+        this.familiarop.marital_status = item.marital_status;
+        this.familiarop.occupation = item.occupation;
+        this.familiarop.background = item.background;
+        this.familiarop.comptetencies = item.comptetencies;
         this.familiarop.id = item.id;
   
         this.familiarop.estado = true;
         this.familiarop.editar = true;
       },
       verFamiliar(item) {
-        this.familiar.familia = item.Family_nucleus;
-        this.familiar.ingreso = item.admission_date;
         this.familiar.edad = item.age;
         this.familiar.cumpleanos = item.birth_date;
-        this.familiar.historia_clinica = item.clinic_history;
         this.familiar.direccion = item.direction;
         this.familiar.educacion = item.education_level;
-        this.familiar.seguro = item.funeral_insurance;
         this.familiar.genero = item.gender;
         this.familiar.correo = item.mail;
         this.familiar.nombre = item.names;

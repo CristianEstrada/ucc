@@ -13,12 +13,6 @@
             <v-col cols="8" class="my-0 py-1">
               <h7> {{ familiar.nombre }} {{ familiar.apellidos }} </h7>
             </v-col>
-            <v-col cols="4" class="my-0 py-1"><h3>Nucleo familiar</h3> </v-col>
-            <v-col cols="8" class="my-0 py-1">
-              <h7>
-                {{ familiar.familia }}
-              </h7>
-            </v-col>
             <v-col cols="4" class="my-0 py-1"><h3>Cumpleaños</h3> </v-col>
             <v-col cols="8" class="my-0 py-1">
               <h7>
@@ -35,12 +29,6 @@
             <v-col cols="8" class="my-0 py-1">
               <h7>
                 {{ familiar.correo }}
-              </h7>
-            </v-col>
-            <v-col cols="4" class="my-0 py-1"><h3>Seguro finerario</h3> </v-col>
-            <v-col cols="8" class="my-0 py-1">
-              <h7>
-                {{ familiar.seguro ? "Tiene" : "No tiene" }}
               </h7>
             </v-col>
             <v-col cols="4" class="my-0 py-1"><h3>Genero</h3> </v-col>
